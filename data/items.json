@@ -1,0 +1,1833 @@
+{
+ "ITEMS": {
+  "banhmi": {
+   "n": "Bánh mì",
+   "cat": "food",
+   "w": 0.2,
+   "p": 20000,
+   "food": 25,
+   "d": "Ổ bánh mì nguội, vẫn ăn được."
+  },
+  "mitom": {
+   "n": "Mì tôm",
+   "cat": "food",
+   "w": 0.1,
+   "p": 6000,
+   "food": 18,
+   "water": -4,
+   "d": "Ăn sống cũng được, hơi khát."
+  },
+  "xoi": {
+   "n": "Xôi gói lá",
+   "cat": "food",
+   "w": 0.3,
+   "p": 15000,
+   "food": 32,
+   "d": "Gói xôi còn ấm."
+  },
+  "banhchung": {
+   "n": "Bánh chưng",
+   "cat": "food",
+   "w": 0.9,
+   "p": 60000,
+   "food": 70,
+   "d": "Nặng nhưng no rất lâu."
+  },
+  "cahop": {
+   "n": "Cá hộp",
+   "cat": "food",
+   "w": 0.3,
+   "p": 28000,
+   "food": 30,
+   "d": "Đồ hộp để được lâu, rất hợp để tích trữ."
+  },
+  "luongkho": {
+   "n": "Lương khô",
+   "cat": "food",
+   "w": 0.25,
+   "p": 18000,
+   "food": 42,
+   "water": -6,
+   "d": "Nhẹ, nhiều năng lượng."
+  },
+  "chuoi": {
+   "n": "Nải chuối",
+   "cat": "food",
+   "w": 0.5,
+   "p": 25000,
+   "food": 22,
+   "water": 6,
+   "d": "Ăn ngay kẻo hỏng."
+  },
+  "banhquy": {
+   "n": "Hộp bánh quy",
+   "cat": "food",
+   "w": 0.3,
+   "p": 35000,
+   "food": 28,
+   "water": -3,
+   "d": "Bánh quy bơ hộp thiếc."
+  },
+  "nuocsuoi": {
+   "n": "Nước suối",
+   "cat": "drink",
+   "w": 0.5,
+   "p": 8000,
+   "water": 40,
+   "d": "Chai 500ml."
+  },
+  "binhnuoc": {
+   "n": "Bình nước 5 lít",
+   "cat": "drink",
+   "w": 5,
+   "p": 25000,
+   "water": 100,
+   "uses": 4,
+   "d": "Nặng, nhưng đủ cho cả nhà vài ngày."
+  },
+  "trada": {
+   "n": "Trà đá túi",
+   "cat": "drink",
+   "w": 0.4,
+   "p": 5000,
+   "water": 26,
+   "d": "Đá tan hết rồi."
+  },
+  "tangluc": {
+   "n": "Nước tăng lực",
+   "cat": "drink",
+   "w": 0.3,
+   "p": 12000,
+   "water": 22,
+   "stam": 60,
+   "d": "Hồi thể lực nhanh."
+  },
+  "suahop": {
+   "n": "Sữa hộp",
+   "cat": "drink",
+   "w": 0.2,
+   "p": 9000,
+   "water": 14,
+   "food": 8,
+   "d": "Lũ trẻ sẽ cần cái này."
+  },
+  "nuocdua": {
+   "n": "Nước dừa",
+   "cat": "drink",
+   "w": 0.6,
+   "p": 20000,
+   "water": 36,
+   "d": "Ngọt mát."
+  },
+  "bang": {
+   "n": "Băng gạc",
+   "cat": "med",
+   "w": 0.1,
+   "p": 15000,
+   "treat": "bleed",
+   "d": "Cầm máu vết thương."
+  },
+  "nep": {
+   "n": "Nẹp cố định",
+   "cat": "med",
+   "w": 0.4,
+   "p": 45000,
+   "treat": "fracture",
+   "d": "Cố định xương gãy."
+  },
+  "giamdau": {
+   "n": "Thuốc giảm đau",
+   "cat": "med",
+   "w": 0.05,
+   "p": 12000,
+   "treat": "pain",
+   "d": "Chữa bầm, chấn động, giảm đau 2 phút."
+  },
+  "khangsinh": {
+   "n": "Thuốc kháng sinh",
+   "cat": "med",
+   "w": 0.05,
+   "p": 35000,
+   "treat": "infect",
+   "d": "Chữa vết thương nhiễm trùng."
+  },
+  "con": {
+   "n": "Cồn sát trùng",
+   "cat": "med",
+   "w": 0.2,
+   "p": 10000,
+   "treat": "clean",
+   "d": "Dùng khi băng vết thương để tránh nhiễm trùng."
+  },
+  "socuu": {
+   "n": "Hộp sơ cứu",
+   "cat": "med",
+   "w": 1,
+   "p": 120000,
+   "treat": "kit",
+   "heal": 30,
+   "d": "Cầm máu, sát trùng, hồi 30 máu."
+  },
+  "canhcay": {
+   "n": "Gậy gỗ",
+   "cat": "tool",
+   "w": 1.2,
+   "p": 0,
+   "weapon": 3,
+   "stun": 2,
+   "d": "Cành cây to gãy sau trận rung chấn, cầm làm gậy. Đánh được mười lần là gãy.",
+   "dur": 10
+  },
+  "banphim": {
+   "n": "Bàn phím",
+   "cat": "tool",
+   "w": 0.8,
+   "p": 0,
+   "weapon": 2,
+   "stun": 1.6,
+   "d": "Bàn phím cơ ở văn phòng. Đập được mười lần là vỡ.",
+   "dur": 10
+  },
+  "chao": {
+   "n": "Chảo gang",
+   "cat": "tool",
+   "w": 1.6,
+   "p": 90000,
+   "weapon": 6,
+   "stun": 3,
+   "d": "Nặng và chắc tay. Một cú là nó phải lùi."
+  },
+  "ongtuyp": {
+   "n": "Ống tuýp sắt",
+   "cat": "tool",
+   "w": 1.8,
+   "p": 50000,
+   "weapon": 8,
+   "stun": 3.2,
+   "d": "Ống nước bằng sắt, dài một mét."
+  },
+  "gaysat": {
+   "n": "Gậy sắt",
+   "cat": "tool",
+   "w": 1.5,
+   "p": 40000,
+   "weapon": 8,
+   "stun": 3,
+   "d": "Đánh trả để quái vật lớn chùn lại, và đập chết được lũ quái nhỏ. Không bao giờ hỏng."
+  },
+  "xabeng": {
+   "n": "Xà beng",
+   "cat": "tool",
+   "w": 2,
+   "p": 70000,
+   "weapon": 12,
+   "stun": 3.6,
+   "pry": true,
+   "d": "Đánh trả, và cạy cửa cuốn êm hơn."
+  },
+  "bangdan": {
+   "n": "Hộp đạn súng lục",
+   "cat": "tool",
+   "w": 0.4,
+   "p": 0,
+   "ammo": 8,
+   "d": "Tám viên đạn súng lục."
+  },
+  "phao": {
+   "n": "Pháo nổ",
+   "cat": "tool",
+   "w": 0.1,
+   "p": 30000,
+   "throwable": "phao",
+   "d": "Ném [Q] để dụ quái vật ra chỗ khác."
+  },
+  "chai": {
+   "n": "Chai thủy tinh",
+   "cat": "tool",
+   "w": 0.4,
+   "p": 3000,
+   "throwable": "chai",
+   "d": "Ném [Q]: tiếng vỡ nhỏ, dụ quái vật gần."
+  },
+  "canxang": {
+   "n": "Can xăng",
+   "cat": "tool",
+   "w": 3,
+   "p": 60000,
+   "fuel": 70,
+   "d": "Đổ xăng cho xe máy (đứng cạnh xe)."
+  },
+  "dongho": {
+   "n": "Đồng hồ định vị",
+   "cat": "gear",
+   "w": 0.1,
+   "p": 0,
+   "watch": true,
+   "d": "Đeo vào cổ tay: xem giờ chính xác và thấy vị trí quái vật trên bản đồ.",
+   "slot": "wrist"
+  },
+  "vi": {
+   "n": "Ví tiền",
+   "cat": "tool",
+   "w": 0.1,
+   "p": 0,
+   "wallet": true,
+   "d": "Ví của người lạ. Mở ra để lấy tiền."
+  },
+  "dtla": {
+   "n": "Điện thoại của người lạ",
+   "cat": "tool",
+   "w": 0.2,
+   "p": 0,
+   "lore": true,
+   "d": "Màn hình nứt nhưng còn sáng. Có tin nhắn chưa đọc."
+  },
+  "giaythethao": {
+   "n": "Giày thể thao",
+   "cat": "gear",
+   "w": 0.8,
+   "p": 250000,
+   "slot": "feet",
+   "speed": 0.12,
+   "quiet": 0.25,
+   "d": "Chạy nhanh hơn, bước chân êm hơn."
+  },
+  "giaybaoho": {
+   "n": "Giày bảo hộ",
+   "cat": "gear",
+   "w": 1.3,
+   "p": 220000,
+   "slot": "feet",
+   "speed": 0.04,
+   "legArmor": 0.5,
+   "d": "Giảm một nửa nguy cơ chấn thương chân."
+  },
+  "aokhoac": {
+   "n": "Áo khoác tối màu",
+   "cat": "gear",
+   "w": 0.8,
+   "p": 180000,
+   "slot": "body",
+   "stealth": 0.28,
+   "d": "Khó bị phát hiện hơn."
+  },
+  "aophao": {
+   "n": "Áo khoác dày",
+   "cat": "gear",
+   "w": 1.6,
+   "p": 300000,
+   "slot": "body",
+   "armor": 0.22,
+   "stealth": 0.08,
+   "d": "Giảm sát thương nhận vào."
+  },
+  "aobaoho": {
+   "n": "Áo bảo hộ lao động",
+   "cat": "gear",
+   "w": 1.2,
+   "p": 150000,
+   "slot": "body",
+   "armor": 0.15,
+   "d": "Vải dày, có miếng lót vai."
+  },
+  "aogiap": {
+   "n": "Áo giáp quân đội",
+   "cat": "gear",
+   "w": 3,
+   "p": 0,
+   "slot": "body",
+   "armor": 0.35,
+   "stealth": 0.1,
+   "d": "Giảm mạnh sát thương. Màu xanh rêu, khó bị thấy."
+  },
+  "mubaohiem": {
+   "n": "Mũ bảo hiểm",
+   "cat": "gear",
+   "w": 1,
+   "p": 150000,
+   "slot": "head",
+   "headArmor": 0.65,
+   "armor": 0.05,
+   "d": "Giảm mạnh nguy cơ chấn động đầu."
+  },
+  "musat": {
+   "n": "Mũ sắt quân đội",
+   "cat": "gear",
+   "w": 1.3,
+   "p": 0,
+   "slot": "head",
+   "headArmor": 0.85,
+   "armor": 0.07,
+   "d": "Gần như không bao giờ bị chấn động đầu."
+  },
+  "balonho": {
+   "n": "Balo đi học",
+   "cat": "gear",
+   "w": 0.5,
+   "p": 200000,
+   "slot": "back",
+   "cap": 10,
+   "d": "Thêm 10kg sức chứa."
+  },
+  "balophuot": {
+   "n": "Balo phượt 50L",
+   "cat": "gear",
+   "w": 1.2,
+   "p": 650000,
+   "slot": "back",
+   "cap": 22,
+   "d": "Thêm 22kg sức chứa."
+  },
+  "dienthoai": {
+   "n": "Điện thoại của bạn",
+   "cat": "tool",
+   "w": 0.2,
+   "p": 0,
+   "quest": true,
+   "radar": true,
+   "d": "Không có sóng, nhưng ứng dụng bản đồ cứu hộ vẫn chạy: mở bản đồ lớn [M] để xem vị trí quái vật. Dùng mãi không hết pin."
+  },
+  "donghotay": {
+   "n": "Đồng hồ đeo tay",
+   "cat": "gear",
+   "w": 0.1,
+   "p": 120000,
+   "clock": true,
+   "d": "Đeo vào cổ tay: biết chính xác mấy giờ, còn bao lâu thì trời tối.",
+   "slot": "wrist"
+  },
+  "sungluc": {
+   "n": "Súng lục",
+   "cat": "tool",
+   "w": 1.0,
+   "p": 0,
+   "gun": true,
+   "weapon": 9999,
+   "d": "Loại súng duy nhất còn tìm được. Tiếng nổ rất to: mọi con quái trong vài trăm mét đều nghe thấy. Bắn trúng Săn Mồi vài phát sẽ đuổi được nó đi."
+  },
+  "maydo": {
+   "n": "Máy dò nhu yếu phẩm",
+   "cat": "tool",
+   "w": 1.2,
+   "p": 0,
+   "scan": true,
+   "d": "Máy quét của nhà giàu: bấm dùng để dò đồ ăn, nước, thuốc trong vòng 40m quanh bạn. Trong bộ nhớ còn lưu vị trí một cái két ở bệnh viện, kèm mật mã."
+  },
+  "kinhdem": {
+   "n": "Kính nhìn đêm",
+   "cat": "gear",
+   "w": 0.6,
+   "p": 0,
+   "slot": "eyes",
+   "nightvision": true,
+   "d": "Đeo vào ô Mắt, bấm N để bật/tắt: nhìn rõ trong đêm mà không cần bật đèn pin, không lộ vị trí."
+  },
+  "baloxin": {
+   "n": "Balo quân dụng 70L",
+   "cat": "gear",
+   "w": 1.6,
+   "p": 0,
+   "slot": "back",
+   "cap": 34,
+   "d": "Balo lớn nhất tìm được. Mang thêm 34kg."
+  },
+  "caphe": {
+   "n": "Cà phê lon",
+   "cat": "drink",
+   "w": 0.3,
+   "p": 18000,
+   "water": 10,
+   "coffee": 240,
+   "d": "Uống vào tỉnh táo: trong 4 phút, chạy tốn thể lực chỉ còn một nửa."
+  },
+  "chan": {
+   "n": "Chăn mỏng",
+   "cat": "tool",
+   "w": 1.4,
+   "p": 60000,
+   "blanket": true,
+   "d": "Dưới hầm đêm rất lạnh. Mỗi người cần một cái để trụ qua bảy ngày."
+  },
+  "thuocdactri": {
+   "n": "Lọ thuốc đặc trị",
+   "cat": "med",
+   "w": 0.2,
+   "p": 0,
+   "cure_na": true,
+   "quest": true,
+   "d": "Thuốc đặc trị của bé Na. Con làm rơi ở trường. Mang về hầm cho con uống."
+  },
+  "denpin": {
+   "n": "Đèn pin",
+   "cat": "tool",
+   "w": 0.3,
+   "p": 0,
+   "light": true,
+   "d": "Pin không bao giờ hết. Bật tắt bằng phím L. Soi được đường, nhưng cũng báo cho mọi thứ biết bạn ở đâu."
+  },
+  "bimbim": {
+   "n": "Bim bim",
+   "cat": "food",
+   "w": 0.1,
+   "p": 6000,
+   "food": 14,
+   "water": -3,
+   "d": "Gói bim bim học sinh hay ăn giờ ra chơi."
+  },
+  "nuocngot": {
+   "n": "Nước ngọt",
+   "cat": "drink",
+   "w": 0.35,
+   "p": 10000,
+   "water": 24,
+   "stam": 15,
+   "d": "Lon nước ngọt có ga."
+  },
+  "ngocay": {
+   "n": "Ngô cay",
+   "cat": "food",
+   "w": 0.1,
+   "p": 5000,
+   "food": 12,
+   "water": -5,
+   "d": "Ăn xong khát nước."
+  },
+  "sachvo": {
+   "n": "Sách vở",
+   "cat": "tool",
+   "w": 0.6,
+   "p": 0,
+   "d": "Sách giáo khoa và vở viết. Không ăn được, nhưng nhóm lửa thì tốt."
+  }
+ },
+ "LOOT": {
+  "grocery": [
+   [
+    "mitom",
+    5
+   ],
+   [
+    "nuocsuoi",
+    5
+   ],
+   [
+    "cahop",
+    4
+   ],
+   [
+    "luongkho",
+    3
+   ],
+   [
+    "banhmi",
+    2
+   ],
+   [
+    "suahop",
+    3
+   ],
+   [
+    "trada",
+    2
+   ],
+   [
+    "binhnuoc",
+    1.5
+   ],
+   [
+    "tangluc",
+    2
+   ],
+   [
+    "chai",
+    2
+   ],
+   [
+    "phao",
+    0.6
+   ],
+   [
+    "banhchung",
+    1
+   ]
+  ],
+  "food": [
+   [
+    "banhmi",
+    5
+   ],
+   [
+    "xoi",
+    4
+   ],
+   [
+    "banhchung",
+    1.5
+   ],
+   [
+    "trada",
+    3
+   ],
+   [
+    "nuocsuoi",
+    3
+   ],
+   [
+    "chai",
+    2
+   ],
+   [
+    "chuoi",
+    1.5
+   ]
+  ],
+  "cafe": [
+   [
+    "caphe",
+    6
+   ],
+   [
+    "trada",
+    3
+   ],
+   [
+    "nuocsuoi",
+    4
+   ],
+   [
+    "suahop",
+    2
+   ],
+   [
+    "nuocngot",
+    4
+   ],
+   [
+    "nuocdua",
+    2
+   ],
+   [
+    "chai",
+    2
+   ],
+   [
+    "banhquy",
+    1
+   ]
+  ],
+  "pharmacy": [
+   [
+    "bang",
+    6
+   ],
+   [
+    "giamdau",
+    5
+   ],
+   [
+    "khangsinh",
+    3
+   ],
+   [
+    "con",
+    4
+   ],
+   [
+    "nep",
+    3
+   ],
+   [
+    "socuu",
+    1.2
+   ]
+  ],
+  "house": [
+   [
+    "mitom",
+    3
+   ],
+   [
+    "nuocsuoi",
+    3
+   ],
+   [
+    "bang",
+    1.5
+   ],
+   [
+    "giamdau",
+    1.5
+   ],
+   [
+    "chuoi",
+    1
+   ],
+   [
+    "banhchung",
+    0.8
+   ],
+   [
+    "phao",
+    1.2
+   ],
+   [
+    "chai",
+    2
+   ],
+   [
+    "suahop",
+    1.5
+   ],
+   [
+    "aokhoac",
+    0.6
+   ],
+   [
+    "mubaohiem",
+    1
+   ],
+   [
+    "con",
+    0.8
+   ]
+  ],
+  "office": [
+   [
+    "nuocsuoi",
+    4
+   ],
+   [
+    "tangluc",
+    2
+   ],
+   [
+    "banhmi",
+    1
+   ],
+   [
+    "bang",
+    1
+   ],
+   [
+    "chai",
+    1
+   ],
+   [
+    "mitom",
+    2
+   ],
+   [
+    "donghotay",
+    1.5
+   ],
+   [
+    "banphim",
+    3
+   ]
+  ],
+  "register": [
+   [
+    "chai",
+    1
+   ],
+   [
+    "phao",
+    1
+   ],
+   [
+    "nuocsuoi",
+    1
+   ]
+  ],
+  "g_noodle": [
+   [
+    "mitom",
+    5
+   ],
+   [
+    "luongkho",
+    2
+   ],
+   [
+    "banhmi",
+    1
+   ]
+  ],
+  "g_drink": [
+   [
+    "nuocsuoi",
+    5
+   ],
+   [
+    "trada",
+    2
+   ],
+   [
+    "tangluc",
+    2
+   ],
+   [
+    "binhnuoc",
+    1.5
+   ],
+   [
+    "nuocdua",
+    1
+   ]
+  ],
+  "g_can": [
+   [
+    "cahop",
+    5
+   ],
+   [
+    "suahop",
+    3
+   ]
+  ],
+  "g_snack": [
+   [
+    "luongkho",
+    3
+   ],
+   [
+    "banhquy",
+    3
+   ],
+   [
+    "banhchung",
+    1
+   ],
+   [
+    "chuoi",
+    1
+   ]
+  ],
+  "g_misc": [
+   [
+    "chai",
+    3
+   ],
+   [
+    "phao",
+    1.5
+   ],
+   [
+    "bang",
+    0.6
+   ],
+   [
+    "canxang",
+    0.4
+   ]
+  ],
+  "p_band": [
+   [
+    "bang",
+    5
+   ],
+   [
+    "con",
+    3
+   ],
+   [
+    "nep",
+    2
+   ]
+  ],
+  "p_pain": [
+   [
+    "giamdau",
+    5
+   ],
+   [
+    "con",
+    1
+   ]
+  ],
+  "p_anti": [
+   [
+    "khangsinh",
+    4
+   ],
+   [
+    "con",
+    1
+   ]
+  ],
+  "p_tool": [
+   [
+    "socuu",
+    2
+   ],
+   [
+    "nep",
+    2
+   ],
+   [
+    "bang",
+    2
+   ]
+  ],
+  "c_coat": [
+   [
+    "aokhoac",
+    4
+   ],
+   [
+    "aophao",
+    2
+   ]
+  ],
+  "c_work": [
+   [
+    "aobaoho",
+    4
+   ],
+   [
+    "aophao",
+    1
+   ]
+  ],
+  "c_acc": [
+   [
+    "mubaohiem",
+    2
+   ],
+   [
+    "balonho",
+    1
+   ],
+   [
+    "aokhoac",
+    1
+   ],
+   [
+    "donghotay",
+    3
+   ]
+  ],
+  "c_helmet": [
+   [
+    "mubaohiem",
+    4
+   ]
+  ],
+  "s_sport": [
+   [
+    "giaythethao",
+    4
+   ]
+  ],
+  "s_work": [
+   [
+    "giaybaoho",
+    4
+   ]
+  ],
+  "b_small": [
+   [
+    "balonho",
+    4
+   ]
+  ],
+  "b_big": [
+   [
+    "balophuot",
+    3
+   ],
+   [
+    "balonho",
+    1
+   ]
+  ],
+  "h_tool": [
+   [
+    "gaysat",
+    3
+   ],
+   [
+    "ongtuyp",
+    2
+   ]
+  ],
+  "h_pipe": [
+   [
+    "ongtuyp",
+    3
+   ],
+   [
+    "gaysat",
+    1
+   ]
+  ],
+  "h_misc": [
+   [
+    "chai",
+    2
+   ],
+   [
+    "phao",
+    1.5
+   ],
+   [
+    "bang",
+    0.5
+   ]
+  ],
+  "k_parts": [
+   [
+    "gaysat",
+    1
+   ],
+   [
+    "chai",
+    1
+   ]
+  ],
+  "k_helmet": [
+   [
+    "mubaohiem",
+    4
+   ]
+  ],
+  "k_fuel": [
+   [
+    "canxang",
+    4
+   ]
+  ],
+  "f_cab": [
+   [
+    "banhmi",
+    4
+   ],
+   [
+    "xoi",
+    4
+   ],
+   [
+    "banhchung",
+    1.5
+   ],
+   [
+    "chuoi",
+    1
+   ]
+  ],
+  "f_kitchen": [
+   [
+    "mitom",
+    2
+   ],
+   [
+    "xoi",
+    2
+   ],
+   [
+    "chai",
+    2
+   ],
+   [
+    "chao",
+    0.8
+   ]
+  ],
+  "fridge": [
+   [
+    "nuocsuoi",
+    3
+   ],
+   [
+    "suahop",
+    3
+   ],
+   [
+    "chuoi",
+    2
+   ],
+   [
+    "banhchung",
+    1
+   ],
+   [
+    "trada",
+    2
+   ],
+   [
+    "nuocdua",
+    1.5
+   ]
+  ],
+  "kitchen": [
+   [
+    "mitom",
+    3
+   ],
+   [
+    "cahop",
+    2
+   ],
+   [
+    "chai",
+    2
+   ],
+   [
+    "banhmi",
+    1
+   ],
+   [
+    "banhquy",
+    1
+   ],
+   [
+    "chao",
+    2
+   ]
+  ],
+  "wardrobe": [
+   [
+    "aokhoac",
+    2
+   ],
+   [
+    "aophao",
+    1
+   ],
+   [
+    "giaythethao",
+    0.6
+   ],
+   [
+    "balonho",
+    0.7
+   ],
+   [
+    "mubaohiem",
+    0.5
+   ],
+   [
+    "donghotay",
+    1.2
+   ]
+  ],
+  "medbox": [
+   [
+    "bang",
+    3
+   ],
+   [
+    "giamdau",
+    3
+   ],
+   [
+    "con",
+    2
+   ],
+   [
+    "khangsinh",
+    1
+   ]
+  ],
+  "drawer": [
+   [
+    "nuocsuoi",
+    2
+   ],
+   [
+    "tangluc",
+    2
+   ],
+   [
+    "giamdau",
+    1
+   ],
+   [
+    "bang",
+    1
+   ],
+   [
+    "luongkho",
+    1
+   ],
+   [
+    "banhquy",
+    1
+   ],
+   [
+    "donghotay",
+    2.5
+   ]
+  ],
+  "street": [
+   [
+    "nuocsuoi",
+    4
+   ],
+   [
+    "trada",
+    3
+   ],
+   [
+    "tangluc",
+    2
+   ],
+   [
+    "suahop",
+    1
+   ],
+   [
+    "canhcay",
+    3
+   ],
+   [
+    "ongtuyp",
+    1.5
+   ]
+  ],
+  "ammo": [
+   [
+    "bangdan",
+    1
+   ]
+  ],
+  "army_med": [
+   [
+    "bang",
+    3
+   ],
+   [
+    "socuu",
+    1.5
+   ],
+   [
+    "nep",
+    1.5
+   ],
+   [
+    "giamdau",
+    2
+   ],
+   [
+    "khangsinh",
+    1
+   ]
+  ],
+  "ration": [
+   [
+    "luongkho",
+    4
+   ],
+   [
+    "nuocsuoi",
+    3
+   ],
+   [
+    "cahop",
+    1
+   ]
+  ],
+  "civ_body": [
+   [
+    "nuocsuoi",
+    3
+   ],
+   [
+    "banhmi",
+    2
+   ],
+   [
+    "giaythethao",
+    1
+   ],
+   [
+    "vi",
+    3
+   ],
+   [
+    "dtla",
+    2.5
+   ],
+   [
+    "giamdau",
+    1
+   ],
+   [
+    "balonho",
+    0.6
+   ],
+   [
+    "dongho",
+    0.22
+   ],
+   [
+    "aokhoac",
+    0.6
+   ],
+   [
+    "bang",
+    1
+   ],
+   [
+    "donghotay",
+    2.0
+   ]
+  ],
+  "sol_body": [
+   [
+    "bangdan",
+    3
+   ],
+   [
+    "luongkho",
+    2
+   ],
+   [
+    "bang",
+    2
+   ],
+   [
+    "musat",
+    1.2
+   ],
+   [
+    "aogiap",
+    0.8
+   ],
+   [
+    "nuocsuoi",
+    1.5
+   ],
+   [
+    "dongho",
+    0.3
+   ]
+  ],
+  "school_locker": [
+   [
+    "bimbim",
+    5
+   ],
+   [
+    "nuocngot",
+    4
+   ],
+   [
+    "ngocay",
+    4
+   ],
+   [
+    "sachvo",
+    6
+   ],
+   [
+    "balonho",
+    1.5
+   ],
+   [
+    "mubaohiem",
+    1
+   ],
+   [
+    "giaythethao",
+    1.2
+   ],
+   [
+    "aokhoac",
+    1.2
+   ],
+   [
+    "banhquy",
+    1.5
+   ],
+   [
+    "suahop",
+    2
+   ]
+  ],
+  "mansion": [
+   [
+    "banhchung",
+    3
+   ],
+   [
+    "cahop",
+    4
+   ],
+   [
+    "luongkho",
+    3
+   ],
+   [
+    "binhnuoc",
+    3
+   ],
+   [
+    "tangluc",
+    2
+   ],
+   [
+    "socuu",
+    3
+   ],
+   [
+    "khangsinh",
+    3
+   ],
+   [
+    "giamdau",
+    2
+   ],
+   [
+    "aogiap",
+    1
+   ],
+   [
+    "baloxin",
+    0.8
+   ],
+   [
+    "bangdan",
+    2.5
+   ],
+   [
+    "caphe",
+    2
+   ],
+   [
+    "chan",
+    1.5
+   ]
+  ],
+  "hospital": [
+   [
+    "bang",
+    5
+   ],
+   [
+    "khangsinh",
+    3
+   ],
+   [
+    "giamdau",
+    4
+   ],
+   [
+    "con",
+    3
+   ],
+   [
+    "socuu",
+    2
+   ],
+   [
+    "nep",
+    2
+   ],
+   [
+    "nuocsuoi",
+    2
+   ],
+   [
+    "chan",
+    1.5
+   ]
+  ],
+  "supermarket": [
+   [
+    "mitom",
+    5
+   ],
+   [
+    "cahop",
+    4
+   ],
+   [
+    "banhquy",
+    3
+   ],
+   [
+    "luongkho",
+    2
+   ],
+   [
+    "nuocsuoi",
+    5
+   ],
+   [
+    "nuocngot",
+    4
+   ],
+   [
+    "binhnuoc",
+    1.5
+   ],
+   [
+    "suahop",
+    3
+   ],
+   [
+    "bimbim",
+    3
+   ],
+   [
+    "banhmi",
+    2
+   ],
+   [
+    "chuoi",
+    2
+   ],
+   [
+    "chan",
+    1
+   ],
+   [
+    "tangluc",
+    2
+   ],
+   [
+    "caphe",
+    2
+   ]
+  ],
+  "foodshop": [
+   [
+    "banhmi",
+    5
+   ],
+   [
+    "xoi",
+    4
+   ],
+   [
+    "banhchung",
+    2
+   ],
+   [
+    "mitom",
+    3
+   ],
+   [
+    "cahop",
+    2
+   ],
+   [
+    "chuoi",
+    2
+   ],
+   [
+    "nuocsuoi",
+    2
+   ],
+   [
+    "trada",
+    2
+   ]
+  ],
+  "radio_room": [
+   [
+    "nuocsuoi",
+    3
+   ],
+   [
+    "luongkho",
+    2
+   ],
+   [
+    "bang",
+    2
+   ],
+   [
+    "giamdau",
+    1
+   ],
+   [
+    "denpin",
+    0.5
+   ],
+   [
+    "caphe",
+    2
+   ]
+  ]
+ },
+ "STARTER": {
+  "body": {
+   "n": "Áo sơ mi trắng",
+   "stealth": -0.12
+  },
+  "feet": {
+   "n": "Giày tây",
+   "speed": 0
+  }
+ },
+ "LORE": [
+  [
+   "Mẹ",
+   "\"Con ơi về chưa? Nhà mình mất điện rồi. Mẹ với em đang ở trong nhà, con đi đường cẩn thận.\""
+  ],
+  [
+   "Vợ",
+   "\"Anh đang ở đâu? Em đón được con rồi. Đừng đi đường Hồ, ở đó có con gì to lắm.\""
+  ],
+  [
+   "Nhóm lớp 12A3",
+   "\"Ai ở gần hồ không?? Video trên mạng con đấy đi được, nó to hơn cả toà nhà.\""
+  ],
+  [
+   "Sếp",
+   "\"Cả công ty nghỉ đến khi có thông báo mới. Ai còn ở văn phòng thì xuống tầng hầm.\""
+  ],
+  [
+   "Số lạ",
+   "\"THÔNG BÁO KHẨN: Người dân không di chuyển bằng phương tiện có động cơ. Sinh vật dưới lòng đất phản ứng với tiếng động.\""
+  ],
+  [
+   "Bố",
+   "\"Bố đang trên đường về. Nếu bố không về kịp thì con đưa mẹ sang nhà bác nhé.\""
+  ],
+  [
+   "Chị Hà",
+   "\"Chị thấy lính ở ngã tư rồi, họ bắn nhưng chẳng ăn thua gì. Đừng đến gần chỗ đấy.\""
+  ],
+  [
+   "Em trai",
+   "\"Anh ơi em sợ lắm. Đất cứ rung từng hồi. Anh về nhanh lên.\""
+  ]
+ ],
+ "ICON_SPEC": {
+  "banhmi": [
+   "bread",
+   "#d99a4a",
+   "#f2c27a"
+  ],
+  "mitom": [
+   "pack",
+   "#e8b21c",
+   "#c8302a"
+  ],
+  "xoi": [
+   "leaf",
+   "#3d7a3a",
+   "#f4efe2"
+  ],
+  "banhchung": [
+   "chung",
+   "#3d7a3a",
+   "#c9b48a"
+  ],
+  "cahop": [
+   "can",
+   "#c9cdd1",
+   "#d9452f"
+  ],
+  "luongkho": [
+   "bar",
+   "#e3c066",
+   "#8a5a1e"
+  ],
+  "chuoi": [
+   "banana",
+   "#f0d03a",
+   "#6a5a20"
+  ],
+  "banhquy": [
+   "tin",
+   "#2f5fa8",
+   "#e8c66a"
+  ],
+  "nuocsuoi": [
+   "bottle",
+   "#9fd0e8",
+   "#2f7fd0"
+  ],
+  "binhnuoc": [
+   "jug",
+   "#bfe3f2",
+   "#2f7fd0"
+  ],
+  "trada": [
+   "bag",
+   "#d9a24a",
+   "#e8e2d4"
+  ],
+  "tangluc": [
+   "can",
+   "#2a2a2e",
+   "#e8b21c"
+  ],
+  "suahop": [
+   "carton",
+   "#f4f2ec",
+   "#3a7bd5"
+  ],
+  "nuocdua": [
+   "coconut",
+   "#6a8a3a",
+   "#e8e2d4"
+  ],
+  "bang": [
+   "roll",
+   "#f4f2ec",
+   "#d9452f"
+  ],
+  "nep": [
+   "splint",
+   "#d9d4c9",
+   "#3a7bd5"
+  ],
+  "giamdau": [
+   "pills",
+   "#f4f2ec",
+   "#2f9e5b"
+  ],
+  "khangsinh": [
+   "pills",
+   "#f4f2ec",
+   "#d9452f"
+  ],
+  "con": [
+   "bottle",
+   "#e8eef2",
+   "#d9452f"
+  ],
+  "socuu": [
+   "kit",
+   "#d9452f",
+   "#fff"
+  ],
+  "canhcay": [
+   "branch",
+   "#6b4a2e",
+   "#5b7a40"
+  ],
+  "banphim": [
+   "keyboard",
+   "#26272b",
+   "#55585e"
+  ],
+  "chao": [
+   "pan",
+   "#2a2a2a",
+   "#5b3f2a"
+  ],
+  "ongtuyp": [
+   "pipe",
+   "#9aa0a6",
+   "#6f7378"
+  ],
+  "gaysat": [
+   "rod",
+   "#6f7378",
+   "#2a2a2a"
+  ],
+  "xabeng": [
+   "crowbar",
+   "#34466a",
+   "#2a3550"
+  ],
+  "sungtruong": [
+   "rifle",
+   "#2b2e26",
+   "#5a4630"
+  ],
+  "bangdan": [
+   "mag",
+   "#2f302a",
+   "#c9a227"
+  ],
+  "phao": [
+   "firecracker",
+   "#c8302a",
+   "#e8c66a"
+  ],
+  "chai": [
+   "bottle",
+   "#5fa36a",
+   "#2f6a3a"
+  ],
+  "canxang": [
+   "fuel",
+   "#c8302a",
+   "#2a2a2a"
+  ],
+  "dongho": [
+   "watch",
+   "#1d1d1f",
+   "#59e09a"
+  ],
+  "vi": [
+   "wallet",
+   "#6b4a2e",
+   "#c9a227"
+  ],
+  "dtla": [
+   "phone",
+   "#2a2a2e",
+   "#7fb4d6"
+  ],
+  "dienthoai": [
+   "phone",
+   "#1d1d1f",
+   "#59e09a"
+  ],
+  "giaythethao": [
+   "shoe",
+   "#f2f2f2",
+   "#d9452f"
+  ],
+  "giaybaoho": [
+   "boot",
+   "#5a4a3a",
+   "#e8b21c"
+  ],
+  "aokhoac": [
+   "jacket",
+   "#2a2f33",
+   "#55595d"
+  ],
+  "aophao": [
+   "jacket",
+   "#3d4f3a",
+   "#6a7a5a"
+  ],
+  "aobaoho": [
+   "jacket",
+   "#e08a1e",
+   "#f4f2ec"
+  ],
+  "aogiap": [
+   "vest",
+   "#4a5a32",
+   "#2f3a22"
+  ],
+  "mubaohiem": [
+   "helmet",
+   "#c8302a",
+   "#2a2a2a"
+  ],
+  "musat": [
+   "helmet",
+   "#4a5a32",
+   "#2f3a22"
+  ],
+  "balonho": [
+   "backpack",
+   "#1d4f9c",
+   "#e8b21c"
+  ],
+  "balophuot": [
+   "backpack",
+   "#2d4a3a",
+   "#d9452f"
+  ]
+ },
+ "MON_BG": {
+  "titan": "#7a2a24",
+  "stalker": "#c8302a",
+  "worm": "#a0401e",
+  "flyer": "#b8301e",
+  "wander": "#7a2a24"
+ }
+}

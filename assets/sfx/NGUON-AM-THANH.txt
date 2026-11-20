@@ -1,0 +1,6 @@
+Âm thanh lấy từ OpenGameArt.org, giấy phép CC0 (không bắt buộc ghi công, vẫn ghi lại để tiện tra cứu):
+- gunshot, gunshot_2: "The Free Firearm Sound Library" (1911) — https://opengameart.org/content/the-free-firearm-sound-library
+- glass_break: "Glass Break" — https://opengameart.org/content/glass-break
+- glass_break_2/3, bottle_break, bottle_break_2, glass, wood_break, metal_hit: "75 CC0 breaking / falling / hit sfx" — https://opengameart.org/content/75-cc0-breaking-falling-hit-sfx
+- door_bash, door_bash_2, wood_crack: "35 wooden cracks/hits/destructions" — https://opengameart.org/content/35-wooden-crackshitsdestructions
+Các âm thanh còn lại do tools/make_sfx.py tổng hợp.

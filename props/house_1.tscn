@@ -1,0 +1,46 @@
+[gd_scene format=3]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jbuk3"]
+albedo_color = Color(0.84705883, 0.7882353, 0.6392157, 1)
+roughness = 0.9
+
+[sub_resource type="BoxMesh" id="BoxMesh_x8og5"]
+material = SubResource("StandardMaterial3D_jbuk3")
+size = Vector3(4.9, 7.6, 14)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_n0aoh"]
+size = Vector3(4.9, 7.6, 14)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_o0l25"]
+albedo_color = Color(0.17254902, 0.22745098, 0.27450982, 1)
+roughness = 0.9
+
+[sub_resource type="BoxMesh" id="BoxMesh_na1mw"]
+material = SubResource("StandardMaterial3D_o0l25")
+size = Vector3(3.822, 1.3, 0.12)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_f4qav"]
+albedo_color = Color(0.2901961, 0.23137255, 0.18039216, 1)
+roughness = 0.9
+
+[sub_resource type="BoxMesh" id="BoxMesh_b4jek"]
+material = SubResource("StandardMaterial3D_f4qav")
+size = Vector3(2.4, 2.6, 0.12)
+
+[node name="House1" type="StaticBody3D" unique_id=1166617557]
+
+[node name="Mesh" type="MeshInstance3D" parent="." unique_id=1418838329]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.8, -7)
+mesh = SubResource("BoxMesh_x8og5")
+
+[node name="Shape" type="CollisionShape3D" parent="." unique_id=1750228849]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.8, -7)
+shape = SubResource("BoxShape3D_n0aoh")
+
+[node name="Windows1" type="MeshInstance3D" parent="." unique_id=1935698898]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.2, 0.02)
+mesh = SubResource("BoxMesh_na1mw")
+
+[node name="Door" type="MeshInstance3D" parent="." unique_id=1064278513]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3, 0.02)
+mesh = SubResource("BoxMesh_b4jek")

@@ -1,0 +1,186 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/hud.gd" id="1_ahhtf"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_oo0fn"]
+bg_color = Color(0.06, 0.07, 0.08, 0.7)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5ysmq"]
+bg_color = Color(0.8117647, 0.2901961, 0.23137255, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6fi6k"]
+bg_color = Color(0.06, 0.07, 0.08, 0.7)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_uo2fv"]
+bg_color = Color(0.89411765, 0.627451, 0.22745098, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_047uy"]
+bg_color = Color(0.06, 0.07, 0.08, 0.7)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5pdws"]
+bg_color = Color(0.4509804, 0.64705884, 0.7764706, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hd3ao"]
+bg_color = Color(0.06, 0.07, 0.08, 0.7)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0i1j5"]
+bg_color = Color(0.92156863, 0.8980392, 0.84705883, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mphia"]
+bg_color = Color(0.06, 0.07, 0.08, 0.7)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0m4u7"]
+bg_color = Color(0.89411765, 0.627451, 0.22745098, 1)
+
+[node name="HUD" type="CanvasLayer" unique_id=52892997]
+script = ExtResource("1_ahhtf")
+
+[node name="Root" type="MarginContainer" parent="." unique_id=2137886223]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+theme_override_constants/margin_left = 18
+theme_override_constants/margin_top = 18
+theme_override_constants/margin_right = 18
+theme_override_constants/margin_bottom = 18
+
+[node name="Objective" type="Label" parent="Root" unique_id=69695222]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+theme_override_font_sizes/font_size = 15
+text = "MỤC TIÊU"
+
+[node name="Stats" type="VBoxContainer" parent="Root" unique_id=2094972782]
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 8
+theme_override_constants/separation = 6
+
+[node name="HpBarRow" type="HBoxContainer" parent="Root/Stats" unique_id=750772121]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="Label" type="Label" parent="Root/Stats/HpBarRow" unique_id=457743284]
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.6039216, 0.58431375, 0.54509807, 1)
+text = "MÁU"
+
+[node name="HpBar" type="ProgressBar" parent="Root/Stats/HpBarRow" unique_id=895841779]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(160, 8)
+layout_mode = 2
+size_flags_vertical = 4
+theme_override_styles/background = SubResource("StyleBoxFlat_oo0fn")
+theme_override_styles/fill = SubResource("StyleBoxFlat_5ysmq")
+value = 100.0
+show_percentage = false
+
+[node name="FoodBarRow" type="HBoxContainer" parent="Root/Stats" unique_id=76210807]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="Label" type="Label" parent="Root/Stats/FoodBarRow" unique_id=472080106]
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.6039216, 0.58431375, 0.54509807, 1)
+text = "ĐÓI"
+
+[node name="FoodBar" type="ProgressBar" parent="Root/Stats/FoodBarRow" unique_id=105734773]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(160, 8)
+layout_mode = 2
+size_flags_vertical = 4
+theme_override_styles/background = SubResource("StyleBoxFlat_6fi6k")
+theme_override_styles/fill = SubResource("StyleBoxFlat_uo2fv")
+value = 100.0
+show_percentage = false
+
+[node name="WaterBarRow" type="HBoxContainer" parent="Root/Stats" unique_id=1528916613]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="Label" type="Label" parent="Root/Stats/WaterBarRow" unique_id=1133214017]
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.6039216, 0.58431375, 0.54509807, 1)
+text = "KHÁT"
+
+[node name="WaterBar" type="ProgressBar" parent="Root/Stats/WaterBarRow" unique_id=1220198606]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(160, 8)
+layout_mode = 2
+size_flags_vertical = 4
+theme_override_styles/background = SubResource("StyleBoxFlat_047uy")
+theme_override_styles/fill = SubResource("StyleBoxFlat_5pdws")
+value = 100.0
+show_percentage = false
+
+[node name="StaminaBarRow" type="HBoxContainer" parent="Root/Stats" unique_id=362131015]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="Label" type="Label" parent="Root/Stats/StaminaBarRow" unique_id=121472353]
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.6039216, 0.58431375, 0.54509807, 1)
+text = "SỨC"
+
+[node name="StaminaBar" type="ProgressBar" parent="Root/Stats/StaminaBarRow" unique_id=1251719060]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(160, 8)
+layout_mode = 2
+size_flags_vertical = 4
+theme_override_styles/background = SubResource("StyleBoxFlat_hd3ao")
+theme_override_styles/fill = SubResource("StyleBoxFlat_0i1j5")
+value = 100.0
+show_percentage = false
+
+[node name="Noise" type="VBoxContainer" parent="Root" unique_id=184463902]
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 0
+
+[node name="NoiseBarRow" type="HBoxContainer" parent="Root/Noise" unique_id=1514500840]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="Label" type="Label" parent="Root/Noise/NoiseBarRow" unique_id=1570148817]
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.6039216, 0.58431375, 0.54509807, 1)
+text = "TIẾNG ỒN"
+
+[node name="NoiseBar" type="ProgressBar" parent="Root/Noise/NoiseBarRow" unique_id=1665671979]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(160, 8)
+layout_mode = 2
+size_flags_vertical = 4
+theme_override_styles/background = SubResource("StyleBoxFlat_mphia")
+theme_override_styles/fill = SubResource("StyleBoxFlat_0m4u7")
+value = 100.0
+show_percentage = false
+
+[node name="Hint" type="Label" parent="Root" unique_id=864694722]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 8
+theme_override_font_sizes/font_size = 14
+text = "Nhấp chuột để điều khiển · WASD đi · Shift chạy · C ngồi · Space nhảy · V đổi góc nhìn · Esc nhả chuột"
+
+[node name="Crosshair" type="ColorRect" parent="Root" unique_id=1589923245]
+custom_minimum_size = Vector2(4, 4)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 2
+color = Color(1, 1, 1, 0.7)

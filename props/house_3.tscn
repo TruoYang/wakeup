@@ -1,0 +1,70 @@
+[gd_scene format=3]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xsdo1"]
+albedo_color = Color(0.7254902, 0.76862746, 0.7882353, 1)
+roughness = 0.9
+
+[sub_resource type="BoxMesh" id="BoxMesh_nnyws"]
+material = SubResource("StandardMaterial3D_xsdo1")
+size = Vector3(4.9, 14.8, 14)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_xyc2g"]
+size = Vector3(4.9, 14.8, 14)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ftdsv"]
+albedo_color = Color(0.17254902, 0.22745098, 0.27450982, 1)
+roughness = 0.9
+
+[sub_resource type="BoxMesh" id="BoxMesh_wmrgj"]
+material = SubResource("StandardMaterial3D_ftdsv")
+size = Vector3(3.822, 1.3, 0.12)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_b7sn0"]
+albedo_color = Color(0.17254902, 0.22745098, 0.27450982, 1)
+roughness = 0.9
+
+[sub_resource type="BoxMesh" id="BoxMesh_2kixp"]
+material = SubResource("StandardMaterial3D_b7sn0")
+size = Vector3(3.822, 1.3, 0.12)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sutm0"]
+albedo_color = Color(0.17254902, 0.22745098, 0.27450982, 1)
+roughness = 0.9
+
+[sub_resource type="BoxMesh" id="BoxMesh_74bcd"]
+material = SubResource("StandardMaterial3D_sutm0")
+size = Vector3(3.822, 1.3, 0.12)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_icbf7"]
+albedo_color = Color(0.2901961, 0.23137255, 0.18039216, 1)
+roughness = 0.9
+
+[sub_resource type="BoxMesh" id="BoxMesh_jhda8"]
+material = SubResource("StandardMaterial3D_icbf7")
+size = Vector3(2.4, 2.6, 0.12)
+
+[node name="House3" type="StaticBody3D" unique_id=1439525097]
+
+[node name="Mesh" type="MeshInstance3D" parent="." unique_id=1719774038]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 7.4, -7)
+mesh = SubResource("BoxMesh_nnyws")
+
+[node name="Shape" type="CollisionShape3D" parent="." unique_id=470553715]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 7.4, -7)
+shape = SubResource("BoxShape3D_xyc2g")
+
+[node name="Windows1" type="MeshInstance3D" parent="." unique_id=194184439]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.2, 0.02)
+mesh = SubResource("BoxMesh_wmrgj")
+
+[node name="Windows2" type="MeshInstance3D" parent="." unique_id=1753671063]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 8.8, 0.02)
+mesh = SubResource("BoxMesh_2kixp")
+
+[node name="Windows3" type="MeshInstance3D" parent="." unique_id=1587954507]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 12.4, 0.02)
+mesh = SubResource("BoxMesh_74bcd")
+
+[node name="Door" type="MeshInstance3D" parent="." unique_id=929581678]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3, 0.02)
+mesh = SubResource("BoxMesh_jhda8")

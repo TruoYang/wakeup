@@ -1,0 +1,58 @@
+[gd_scene format=3]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tcaxc"]
+albedo_color = Color(0.8392157, 0.70980394, 0.627451, 1)
+roughness = 0.9
+
+[sub_resource type="BoxMesh" id="BoxMesh_5qvrj"]
+material = SubResource("StandardMaterial3D_tcaxc")
+size = Vector3(4.9, 11.2, 14)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_xovqj"]
+size = Vector3(4.9, 11.2, 14)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bx6eb"]
+albedo_color = Color(0.17254902, 0.22745098, 0.27450982, 1)
+roughness = 0.9
+
+[sub_resource type="BoxMesh" id="BoxMesh_w8mf4"]
+material = SubResource("StandardMaterial3D_bx6eb")
+size = Vector3(3.822, 1.3, 0.12)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_13mpu"]
+albedo_color = Color(0.17254902, 0.22745098, 0.27450982, 1)
+roughness = 0.9
+
+[sub_resource type="BoxMesh" id="BoxMesh_mn4jr"]
+material = SubResource("StandardMaterial3D_13mpu")
+size = Vector3(3.822, 1.3, 0.12)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7ai55"]
+albedo_color = Color(0.2901961, 0.23137255, 0.18039216, 1)
+roughness = 0.9
+
+[sub_resource type="BoxMesh" id="BoxMesh_1ccoo"]
+material = SubResource("StandardMaterial3D_7ai55")
+size = Vector3(2.4, 2.6, 0.12)
+
+[node name="House4" type="StaticBody3D" unique_id=1365242086]
+
+[node name="Mesh" type="MeshInstance3D" parent="." unique_id=1504562769]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.6, -7)
+mesh = SubResource("BoxMesh_5qvrj")
+
+[node name="Shape" type="CollisionShape3D" parent="." unique_id=2006489403]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.6, -7)
+shape = SubResource("BoxShape3D_xovqj")
+
+[node name="Windows1" type="MeshInstance3D" parent="." unique_id=265539463]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.2, 0.02)
+mesh = SubResource("BoxMesh_w8mf4")
+
+[node name="Windows2" type="MeshInstance3D" parent="." unique_id=893824987]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 8.8, 0.02)
+mesh = SubResource("BoxMesh_mn4jr")
+
+[node name="Door" type="MeshInstance3D" parent="." unique_id=1195814468]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3, 0.02)
+mesh = SubResource("BoxMesh_1ccoo")
